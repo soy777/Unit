@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Title: Original Heading for Homepage
  * Slug: twentytwentythree/hidden-heading
@@ -29,9 +30,6 @@
 
 /**
 * Function to check if the user is logged in based on the presence of a valid cookie
-*/
-session_start();
-
 /*
  * Configuration
  */
